@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		02EE526125A8917B00B4D59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE526025A8917B00B4D59F /* AppDelegate.swift */; };
-		02EE526325A8917B00B4D59F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE526225A8917B00B4D59F /* SceneDelegate.swift */; };
 		02EE526525A8917B00B4D59F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE526425A8917B00B4D59F /* ViewController.swift */; };
 		02EE526825A8917B00B4D59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EE526625A8917B00B4D59F /* Main.storyboard */; };
 		02EE526A25A8917D00B4D59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02EE526925A8917D00B4D59F /* Assets.xcassets */; };
 		02EE526D25A8917D00B4D59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EE526B25A8917D00B4D59F /* LaunchScreen.storyboard */; };
+		02EE527D25A891BF00B4D59F /* BehaviorSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE527725A891BF00B4D59F /* BehaviorSubject.swift */; };
+		02EE527E25A891BF00B4D59F /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE527825A891BF00B4D59F /* Observer.swift */; };
+		02EE527F25A891BF00B4D59F /* PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE527925A891BF00B4D59F /* PublishSubject.swift */; };
+		02EE528025A891BF00B4D59F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE527A25A891BF00B4D59F /* Observable.swift */; };
+		02EE528125A891BF00B4D59F /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE527B25A891BF00B4D59F /* Variable.swift */; };
+		02EE528225A891BF00B4D59F /* ObservationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE527C25A891BF00B4D59F /* ObservationToken.swift */; };
+		02EE528625A8F40100B4D59F /* DisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE528525A8F40100B4D59F /* DisposeBase.swift */; };
+		02EE528A25A8F49E00B4D59F /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE528925A8F49E00B4D59F /* Disposable.swift */; };
+		02EE528D25A8F54E00B4D59F /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE528C25A8F54E00B4D59F /* DisposeBag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02EE525D25A8917B00B4D59F /* DisposeBagDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisposeBagDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EE526025A8917B00B4D59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02EE526225A8917B00B4D59F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		02EE526425A8917B00B4D59F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02EE526725A8917B00B4D59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02EE526925A8917D00B4D59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02EE526C25A8917D00B4D59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02EE526E25A8917D00B4D59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02EE527725A891BF00B4D59F /* BehaviorSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehaviorSubject.swift; sourceTree = "<group>"; };
+		02EE527825A891BF00B4D59F /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		02EE527925A891BF00B4D59F /* PublishSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishSubject.swift; sourceTree = "<group>"; };
+		02EE527A25A891BF00B4D59F /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		02EE527B25A891BF00B4D59F /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		02EE527C25A891BF00B4D59F /* ObservationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservationToken.swift; sourceTree = "<group>"; };
+		02EE528525A8F40100B4D59F /* DisposeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBase.swift; sourceTree = "<group>"; };
+		02EE528925A8F49E00B4D59F /* Disposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
+		02EE528C25A8F54E00B4D59F /* DisposeBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +72,8 @@
 		02EE525F25A8917B00B4D59F /* DisposeBagDemo */ = {
 			isa = PBXGroup;
 			children = (
+				02EE527625A891BF00B4D59F /* Observables */,
 				02EE526025A8917B00B4D59F /* AppDelegate.swift */,
-				02EE526225A8917B00B4D59F /* SceneDelegate.swift */,
 				02EE526425A8917B00B4D59F /* ViewController.swift */,
 				02EE526625A8917B00B4D59F /* Main.storyboard */,
 				02EE526925A8917D00B4D59F /* Assets.xcassets */,
@@ -65,6 +81,31 @@
 				02EE526E25A8917D00B4D59F /* Info.plist */,
 			);
 			path = DisposeBagDemo;
+			sourceTree = "<group>";
+		};
+		02EE527625A891BF00B4D59F /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				02EE528425A8F3DA00B4D59F /* Disposables */,
+				02EE527725A891BF00B4D59F /* BehaviorSubject.swift */,
+				02EE527825A891BF00B4D59F /* Observer.swift */,
+				02EE527925A891BF00B4D59F /* PublishSubject.swift */,
+				02EE527A25A891BF00B4D59F /* Observable.swift */,
+				02EE527B25A891BF00B4D59F /* Variable.swift */,
+				02EE527C25A891BF00B4D59F /* ObservationToken.swift */,
+			);
+			name = Observables;
+			path = "../../../VictoryLink/CashCall-iOS/Classes/Tools/Observables";
+			sourceTree = "<group>";
+		};
+		02EE528425A8F3DA00B4D59F /* Disposables */ = {
+			isa = PBXGroup;
+			children = (
+				02EE528525A8F40100B4D59F /* DisposeBase.swift */,
+				02EE528925A8F49E00B4D59F /* Disposable.swift */,
+				02EE528C25A8F54E00B4D59F /* DisposeBag.swift */,
+			);
+			path = Disposables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02EE527F25A891BF00B4D59F /* PublishSubject.swift in Sources */,
+				02EE528125A891BF00B4D59F /* Variable.swift in Sources */,
+				02EE528625A8F40100B4D59F /* DisposeBase.swift in Sources */,
 				02EE526525A8917B00B4D59F /* ViewController.swift in Sources */,
+				02EE527E25A891BF00B4D59F /* Observer.swift in Sources */,
+				02EE528D25A8F54E00B4D59F /* DisposeBag.swift in Sources */,
+				02EE527D25A891BF00B4D59F /* BehaviorSubject.swift in Sources */,
+				02EE528025A891BF00B4D59F /* Observable.swift in Sources */,
+				02EE528A25A8F49E00B4D59F /* Disposable.swift in Sources */,
+				02EE528225A891BF00B4D59F /* ObservationToken.swift in Sources */,
 				02EE526125A8917B00B4D59F /* AppDelegate.swift in Sources */,
-				02EE526325A8917B00B4D59F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
